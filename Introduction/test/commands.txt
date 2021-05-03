@@ -1,0 +1,102 @@
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mkdir test
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd test
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ touch index.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ touch style.css
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  index_2.html  style.css
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ cd ..
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mkdir destination
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mv test/ index_2.html destination/
+mv: cannot stat 'index_2.html': No such file or directory
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mv test/index_2.html destination/
+mv: cannot stat 'test/index_2.html': No such file or directory
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mv ./test/index_2.html ./destination/
+mv: cannot stat './test/index_2.html': No such file or directory
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd te
+Teams_windows_x64.exe  test.zip
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd test
+bash: cd: test: No such file or directory
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ mv ./test/index_2.html ./destination/
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ ls
+ 
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd destination/
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/destination
+$ pwd
+/c/Users/laith/Desktop/destination
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/destination
+$ cd ..
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd test
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ rm style.css
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/test
+$ cd ..
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ cd destination/
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/destination
+$ ls
+index_2.html
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop/destination
+$ cd ..
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ rm -rf destination
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop
+$ ls
+
+laith@DESKTOP-C3F1VHJ MINGW64 ~/Desktop

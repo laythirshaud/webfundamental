@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+       $(document).ready(function(){
+        $('img').click(function(){
+				$(this).attr('temp', $(this).attr('src'));
+				$(this).attr('src', $(this).attr('data-alt-src'));
+				$(this).attr('data-alt-src', $(this).attr('temp'));
+			});
+       });
+    </script>
+</head>
+<body>
+    <div id="contaner">
+        <img src='cat0.png' data-alt-src='ninja0.png' />
+        <img src='cat1.png' data-alt-src='ninja1.png' />
+        <img src='cat2.png' data-alt-src='ninja2.png' />
+        <img src='cat3.png' data-alt-src='ninja3.png' />
+        <img src='cat4.png' data-alt-src='ninja4.png' />
+        
+
+    </div>
+</body>
+</html>

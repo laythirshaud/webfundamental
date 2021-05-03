@@ -1,0 +1,31 @@
+.bar{
+    display: flex;
+    background-color: rgb(44, 6, 214);
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+  
+}
+h1{
+    flex: 1;
+padding-left: 36px;
+}
+
+img{
+    display: block;
+flex: 0.5;
+}
+ul{
+    flex: 5;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+li{display: inline;
+  color: rgb(253, 247, 247);
+
+    color: rgb(245, 236, 236);
+
+}

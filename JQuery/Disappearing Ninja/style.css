@@ -1,0 +1,32 @@
+
+*{
+    margin: 0px;
+    padding: opx
+    ;
+}
+
+
+#contaner{
+    width: 500px;
+   
+
+}
+
+.first{
+    display:flex;
+}
+.secend{
+    display: flex;
+}
+
+img{
+ width: 100px;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: green;
+    border-bottom: 5px solid black;
+}
